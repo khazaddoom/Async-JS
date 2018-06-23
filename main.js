@@ -17,10 +17,14 @@
 
 
 
-var test = () => {
+// var test = () => {
 
-    console.log('ES6!')
+//     console.log('ES6!')
 
-};
+// };
 
-test();
+// test();
+
+setTimeout(() => {
+    console.log('ES6: I am delayed!')    
+ }, 2000);
